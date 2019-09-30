@@ -8,7 +8,7 @@ node ("$NodeName") {
     )
     dir ('config') {
     git(
-        url: "git@github.com:jayabalandevops/pls.git",
+        url: "git@github.com:jayabalandevops/conf.git",
         branch: "master"
     )
     }

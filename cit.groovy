@@ -9,7 +9,7 @@ node ("$NodeName") {
     dir ('config') {
     git(
         url: git@github.com:jayabalandevops/pls.git,
-        branch: master
+        branch: "master"
     )
     }
     println("Prepared..!")

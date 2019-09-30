@@ -3,7 +3,7 @@ node ("$NodeName") {
     stage ("Prepare") {
     println("Preparing...")
     git(
-        url: git@github.com:jayabalandevops/pls.git,
+        url: "git@github.com:jayabalandevops/pls.git",
         branch: "master"
     )
     dir ('config') {

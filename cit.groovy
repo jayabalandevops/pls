@@ -17,4 +17,7 @@ node ("$NodeName") {
     stage("Application Cloning"){
         load 'app/clone.groovy'
     }
+    stage("Build") {
+        load 'app/build.groovy'
+    }
 }

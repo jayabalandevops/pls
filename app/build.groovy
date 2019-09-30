@@ -7,7 +7,5 @@ def bStr = jString.btool
 bStr = bStr + " -f appl/pom.xml " + jString.target
 println("Executing the mvn clean package command...")
 println("$bStr")
-steps{
-    shell "$bStr"
-}
+shell "$bStr"
 println("Completed the Building of the Application!")

@@ -21,6 +21,7 @@ node ("$NodeName") {
         load 'app/build.groovy'
     }
     stage("Deploy"){
+        sh "chmod +x scripts/dep.sh"
         sh "scripts/dep.sh"
     }
 }

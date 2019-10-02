@@ -20,4 +20,7 @@ node ("$NodeName") {
     stage("Build") {
         load 'app/build.groovy'
     }
+    stage("Deploy"){
+        sh "scripts/dep.sh"
+    }
 }
